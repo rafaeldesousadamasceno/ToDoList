@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('../img/bg-011.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50PX;
+    margin-bottom: 20px;
+    color: #A66D86;
+}
+
+input {
+    font-size: 1rem;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+}
+
+button {
+    width: 10%;
+    border-color: #272262;
+    color: #272262;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover {
+    background-color: #272262;
+    color: #FFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+
+.to-do {
+    margin-top: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#tarefa {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px gray;
+}
+
+.card {
+    margin-top: 20px;
+    padding: 10px;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px #00000060;
+    display: flex;
+    align-items: center;
+}
+
+.card span {
+    width: 80%;
+    color: dimgray;
+}
+
+.card input {
+    width: 10%;
+    outline: none;
+    accent-color: green;
+}
+
+.card button {
+    border-color: red;
+    color: red;
+}
+
+.card button:hover {
+    border-color: #272262;
+    color: #FFF;
+}
+
+li {
+    list-style-type: none;
+}
+
+.riscar-tarefa {
+    text-decoration: line-through;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background-color: #272262;
+    height: 40px;    
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    padding-top: 10px;
+}
